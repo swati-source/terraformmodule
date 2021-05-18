@@ -1,0 +1,6 @@
+module "vmswati_module" {
+  source = "/home/ec2-user/moduleswati/vmswati"
+  ami = "ami-0ce448b1704085256"
+  instancetype = "t2.micro"
+  vmswatiname = "myvmswati001"
+}
